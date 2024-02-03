@@ -29,4 +29,4 @@ This is a simple product catalog web application that allows users to browse thr
 1. Clone the repository:
 
    ```bash
-   git clone <>
+   git clone <https://github.com/HamidUV/product-catalog-webapp.git>
