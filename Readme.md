@@ -1,67 +1,32 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+# Product Catalog Web App
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+This is a simple product catalog web application that allows users to browse through different categories of products and view detailed information about each product. The project is built using HTML, CSS, and JavaScript, following the provided requirements.
 
-## Getting Started
+## Features
 
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code.git
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
+- **Tab Switching Layout:** Users can switch between "Men," "Women," and "Kids" tabs to view products in different categories.
 
-2. **Navigate to Project Directory:**
+- **Dynamic Product Cards:** Product cards display information such as product image, badge, title, vendor, price, and compare at price. Product badges are dynamically fetched from the API response.
 
-3. **Explore the Structure:**
-Take a moment to review the project structure:
+- **Discount Calculation:** The application calculates the discount percentage based on the provided price and compare at price using JavaScript.
 
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for your project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for your project.
-  
-> **Important:** Avoid using additional files or a single file for your code. Feel free to organize asset files by creating a separate folder.
+- **Add to Cart Button:** While the "Add to Cart" button is present, it is a dummy button with no actual functionality.
 
-## Development and Testing
+- **Responsive Design:** The webpage is designed to be responsive across various devices, including mobile screens (up to 767px) and tablet screens (768px to 1024px).
 
-4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
-5. **Testing:**
-- Test your code to ensure it produces the expected output.
-- Ensure that the console (Developer Tools) does not display any errors.
+## Project Structure
 
+- **index.html:** Contains the HTML structure for the webpage, including tab switching and product card elements.
 
----
-## Submission Guidelines
+- **style.css:** Defines the styles for the webpage, ensuring a visually appealing and responsive layout.
 
-### Option 1: GitHub Repository
+- **script.js:** Implements the logic for tab switching, fetching dynamic product data from the API, and calculating discounts.
 
-1. Create a new public repository on GitHub.
-2. Upload your project files (index.html, style.css, script.js) to the repository.
-3. Write a brief description of your project in the README.md file.
-4. Share the repository URL with us.
+- **multiProduct.json:** The product data API response used in the project.
 
-### Option 2: ZIP File on Google Drive
+## Usage
 
-1. Create a ZIP file of your entire project.
-2. Upload the ZIP file to your Google Drive.
-3. Share the public link to the ZIP file via email.
+1. Clone the repository:
 
-## Hosting (Bonus)
-You can earn bonus points by hosting your project on a free hosting platform such as GitHub Pages or Netlify.
-
-## Important Notes
-
-- Do not use any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
-- Make sure to include clear instructions on how to run your project (if necessary).
-
-Feel free to reach out to invigilator at `rishabh@marmeto.com` if you have any questions. Good luck! We look forward to reviewing your submission.
+   ```bash
+   git clone <>
